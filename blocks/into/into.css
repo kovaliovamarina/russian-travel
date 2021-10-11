@@ -1,0 +1,29 @@
+.into {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: calc(100% - 148px * 2);
+    margin-top: 82px;
+    margin-bottom: 92px;
+}
+
+@media (max-width: 1024px) {
+    .into {
+        max-width: calc(100% - 48px * 2);
+    }
+}
+
+@media (max-width: 768px) {
+    .into {
+        max-width: calc(100% - 24px * 2);
+        margin-bottom: 88px;
+    }
+}
+
+@media (max-width: 720px) {
+    .into {
+        max-width: calc(100% - 16px * 2);
+        margin-top: 56px;
+        margin-bottom: 64px;
+    }
+}
