@@ -1,13 +1,14 @@
 .footer__link {
-    display: inline-flex;
-    text-decoration: none;
-    color: white;
-    opacity: 1;
-    margin-right: 18px;
+    display: flex;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    margin-right: 18px;
+    margin-bottom: 0;
 }
 
 .footer__link:hover {
@@ -15,7 +16,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 705px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;

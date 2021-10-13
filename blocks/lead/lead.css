@@ -14,7 +14,6 @@
     .lead {
         margin-top: 48px;
         max-width: calc(100% - 48px * 2);
-        width: 100%;
     }
 }
 
@@ -26,7 +25,6 @@
 
 @media (max-width: 320px) {
     .lead {
-        max-width: 100%;
         margin-top: 48px;
     }
 }

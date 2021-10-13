@@ -3,23 +3,26 @@
     justify-content: space-between;
     margin-top: 92px;
     margin-bottom: 24px;
-    max-width: calc(100% - 48px *2);
+    max-width: calc(100% - 48px * 2);
     width: 100%;
 }
 
 @media (max-width: 768px) {
     .footer {
         margin-top: 88px;
-        max-width: calc(100% - 24px *2);
-        width: 100%;
+        max-width: calc(100% - 24px * 2);
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 705px) {
     .footer {
-        display: block;
         margin-top: 64px;
-        max-width: 100%;
-        padding-left: 16px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        max-width: calc(100% - 16px * 2);
     }
 }

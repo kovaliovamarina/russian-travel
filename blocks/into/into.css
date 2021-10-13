@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: start;
     max-width: calc(100% - 148px * 2);
-    margin-top: 82px;
+    margin-top: 92px;
     margin-bottom: 92px;
 }
 
@@ -16,6 +16,7 @@
 @media (max-width: 768px) {
     .into {
         max-width: calc(100% - 24px * 2);
+        margin-top: 88px;
         margin-bottom: 88px;
     }
 }

@@ -7,10 +7,9 @@
     text-decoration: none;
     color: #FFFFFF;
     object-fit: contain;
-    max-width: calc(100% - 48px *2);
+    max-width: calc(100% - 48px * 2);
     width: 100%;
     min-height: 740px;
-    margin-top: 10px;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
