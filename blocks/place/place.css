@@ -7,7 +7,7 @@
 }
 
 .place:last-child {
-    margin-bottom: 92px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 1024px) {
@@ -23,19 +23,13 @@
         gap: 48px 28px;
         margin-bottom: 73px;
     }
-    .place:last-child {
-        margin-bottom: 90px;
-    }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .place {
         grid-template-columns: auto;
         gap: 32px;
         max-width: 100%;
         margin-bottom: 50px;
-    }
-    .place:last-child {
-        margin-bottom: 0;
     }
 }
